@@ -8,12 +8,14 @@ It maps the packages and class name to a nested set of Ruby modules.
 The first letter of each module name is capitalized.
 For example, java.util.HashMap would become Java::Util::HashMap
 
-### Getting the Source
+### Installation
 
 Performing a git clone on the following repository will get you
 the latest source:
 
     git clone git://github.com/sklemm/jrequire.git 
+    
+Copy the jrequire.rb file in your application folder
 
 
 ### Usage
