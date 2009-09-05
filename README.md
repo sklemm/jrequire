@@ -32,7 +32,7 @@ To load the Java lib in your application, do once:
     load_jvm(classpath, ['-Xms128m', '-Xmx1024m'])
     
 
-To use the Java classes in RUby code, do:
+To use the Java classes in Ruby code, do:
 
     jrequire 'theres.whisky.in.the.Jar'
     
@@ -41,10 +41,9 @@ To use the Java classes in RUby code, do:
 
 ### Licensing and Copyright
 
-Original Work
-Copyright (C) 2006 Richard L. Apodaca
-Modifications
-Copyright (C) 2009 Sebastian Klemm
+* Original Work Copyright (C) 2006 Richard L. Apodaca
+
+* Modifications Copyright (C) 2009 Sebastian Klemm
 
 This file is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
@@ -59,4 +58,4 @@ Lesser General Public License for more details.
 
 ### Support
 
-    klemm.sebi@bluewin.ch
+klemm.sebi@bluewin.ch
